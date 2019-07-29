@@ -21,7 +21,7 @@ module Asteriskws
 
   spawn do
     
-    ws "/asterisk/events" do |socket|
+    ws "/asteriskws/events" do |socket|
       sockets.push socket
       
       # Handle incoming message and dispatch it to all connected clients
