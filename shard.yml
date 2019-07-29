@@ -1,0 +1,21 @@
+name: asteriskws
+version: 0.1.0
+
+authors:
+  - Luis Gómez <xtokio@gmail.com>
+
+targets:
+  asteriskws:
+    main: src/asteriskws.cr
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+  kemal-session:
+    github: kemalcr/kemal-session
+  dotenv:
+    github: xtokio/dotenv
+
+crystal: 0.29.0
+
+license: MIT
