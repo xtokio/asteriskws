@@ -1,6 +1,6 @@
 # AsteriskWS
 
-A Websocket implemented in Crystal to connect to an Asterisk phone system ARI API and replicating all events.
+A Websocket implemented in Crystal to connect to an Asterisk phone system ARI API and replicate websocket events from Asterisk and send them to the Crystal websocket.
 
 ## Installation
 
