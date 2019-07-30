@@ -6,8 +6,8 @@ require "dotenv"
 # Add a session config secret
 Kemal::Session.config.secret = "9e7abe8ae041296820a0b69ef0e4a397c87f5866f454d35d432840bc98cfd789439addc260bb6f9a058e88faa7e4a4e416e39d05273f459dd3373dc6387cf69c"
 
-Dotenv.load
-# Dotenv.load(path: "/var/www/domains/mischicanadas/subdomains/app/asteriskws/.env")
+# Dotenv.load
+Dotenv.load(path: "/var/www/domains/mischicanadas/subdomains/app/asteriskws/.env")
 
 module Asteriskws
   VERSION = "0.1.0"
